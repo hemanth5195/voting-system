@@ -1,0 +1,142 @@
+/* Add your CSS code here */
+
+/* Style the container */
+.container-fluid.contactus-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Style the heading section */
+  .heading {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .headi {
+    font-size: 50px;
+    color: #cc0000;
+    font-weight: 600;
+    margin: 20px auto;
+    text-align: left;
+    text-shadow: 3px 3px 3px #bdbdbd;
+  }
+  .ce {
+    font-size: 20px;
+  }
+  
+  .heading h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .red {
+    color: red;
+    padding-right: 10px;
+  }
+  
+  /* Style the form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #a8a6a6;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  /* Style the input fields */
+  form input[type="text"],
+  form input[type="date"],
+  form input[type="email"],
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  form input[type="submit"] {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Style the contact details section */
+  .sectio1 {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  
+  .section1 label {
+    font-weight: bold;
+  }
+  
+  .section2 a {
+    color: #ff5722;
+  }
+  
+  .section1 a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .eng {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .row5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+.box5 {
+  padding: none;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.xhighlightdiv {
+  font-size: 15px;
+}
+
+.row2 {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+
+}
+
+.row2 > div {
+  flex: 100%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  box-shadow: 0 0 0 1px rgb(249, 247, 247);
+  margin-bottom: 10px;
+  
+}
+
+

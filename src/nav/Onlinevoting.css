@@ -1,0 +1,160 @@
+
+.tab {
+    background-color: #2a292909;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 290px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+  }
+  .ad {
+    border: none;
+    background-color:rgba(62, 61, 61, 0);
+    color: #0a7fc3;
+  }
+  
+  .label {
+    font-size: 15px;
+  }
+  
+  .button {
+    background-color: #2812ef;
+    color: #f8f2f2;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .lna {
+    color: #ddd;
+  }
+  .full {
+    background-color:none;
+  }
+  
+  .create {
+    background-color: #fe4a4a;
+    color: #fefefe;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-left: 340px;
+  }
+  
+  /* Optional: Style for image preview */
+  .option-image {
+    width: 200px; /* Set the desired width */
+    height: 100px; /* Set the desired height */
+    object-fit: cover; /* Adjust how the image is fitted within the specified dimensions */
+    margin-right: 10px; /* Add spacing between image and other elements if needed */
+    border: 1px solid #ccc; /* Add a border if desired */
+  }
+  .button1 {
+    background-color: rgba(62, 61, 61, 0);
+    color: #030202;
+    border: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button1:hover {
+    color: #1610cd;
+    text-decoration: dotted;
+  }
+  
+  .buttonm {
+    background-color: rgba(62, 61, 61, 0);
+    color: #030202;
+    border: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 700px;
+  }
+  .buttonm:hover {
+    color: #1610cd;
+    text-decoration: dotted;
+  }
+  
+  .poll-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .poll-table th,
+  .poll-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .poll-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-option-image {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .ct-headline7 {
+    font-family: Copperplate, Papyrus, fantasy;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 58px;
+      text-align: center;
+      padding-top: 20px;
+      color: #e6301c;
+  }
+
+.containers {
+  background-color: #030202;
+}
+
+.crep1 {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:450px;
+}
+
+.crep {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-bottom:30px ;
+}
+
+.input.large,
+.textarea.large {
+  margin-bottom: 10px; /* Added margin bottom */
+}
+
+.input[type="file"] {
+  margin-top: 0; /* Removed margin top */
+}
+
+.ad {
+  margin-top: 0; /* Removed margin top */
+}

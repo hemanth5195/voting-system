@@ -1,0 +1,115 @@
+/* Add your global styles here */
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+    padding-top: 50px;
+  }
+  
+  .features .section-heading h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #181717;
+  }
+  
+  .features .section-heading p {
+    font-size: 18px;
+    color: #0b0b0b;
+  }
+  
+  .features .section-heading hr {
+    width: none;
+    border-top: none;
+    margin: 20px auto;
+  }
+  
+  .features .swiper-container {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .features .swiper-slide {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .features .swiper-slide img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .features .swiper-slide h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .features .swiper-slide p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .features .timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features .timeline .timeline-image {
+    position: relative;
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid #f0f0ef;
+    border-radius: 50%;
+    height: 80px; /* Adjusted height */
+    width: 80px; /* Adjusted width */
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px; /* Adjusted line-height */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features .timeline .timeline-panel {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features .timeline .timeline-heading h4 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .features .timeline .timeline-body p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .features .swiper-slide {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* CSS for the image and text layout */
+.image-container {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add some space between image and text */
+  }
+  
+  .section-heading,
+  .text-muted {
+    text-align: center; /* Ensure text doesn't overlap with the image */
+  }
+
+  .custom-image6 {
+    width: 100%;
+    height: 100%;
+  }
+  

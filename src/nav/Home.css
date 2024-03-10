@@ -1,0 +1,171 @@
+/* Add this CSS to your Home.css or a separate CSS file */
+
+.ct-headline {
+  font-family: 'Brush Script MT', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    text-align: center;
+}
+
+.ct-headline1 {
+  font-family: Copperplate, Papyrus, fantasy;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    text-align: center;
+
+    color: #ff9021;
+}
+
+
+/* Container Styles */
+.ct-inner-content {
+  font-family: 'Arial', sans-serif; /* Change the font-family as desired */
+  padding: none;
+  
+}
+
+
+
+/* Paragraph Text Styles */
+.ct-text-block {
+  font-family: 'Georgia', serif; /* Change the font-family as desired */
+  font-size: 16px; /* Change font size */
+  color: #666; /* Change font color */
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* Links Styles */
+a {
+  color: #0074cc; /* Change link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Image Styles */
+.ct-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* List Styles */
+ul {
+  font-family: 'Arial', sans-serif; /* Change the font-family as desired */
+  font-size: 16px; /* Change font size */
+  color: #333; /* Change font color */
+  list-style-type: disc;
+}
+
+/* List Item Styles */
+li {
+  margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Container for Buttons */
+.ct-div-block {
+  margin-bottom: 20px; /* Add space between sections */
+}
+
+/* Button Styles */
+/* Center the button container horizontally and vertically */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-bottom: 50px; /* Make the container full height of the viewport */
+}
+
+.ct-link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif; /* Change the font-family as desired */
+  font-size: 16px; /* Change font size */
+  color: #fff; /* Button text color */
+  background-color: #0074cc; /* Button background color */
+  border: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.ct-link-button:hover {
+  background-color: #005aa7; /* Change button color on hover */
+}
+
+/* Code Block Styles */
+.ct-code-block {
+  font-family: 'Courier New', monospace; /* Change the font-family as desired */
+  font-size: 14px; /* Change font size */
+  color: #333; /* Change font color */
+  background-color: #f4f4f4; /* Code block background color */
+  padding: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  overflow-x: auto;
+}
+
+/* Adjustments for the article image */
+.articleimg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin:none; /* Center the image and add space */
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .ct-headline {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  .ct-text-block {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+.oxy-rich-text {
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 13px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+  width: 50%;
+  color: #151515;
+  
+}
+
+#text_block-6-243 {
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 13px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+  width: 50%;
+
+  color: #ff9021;
+  
+}
+
+.image1 {
+  margin-left: 350px;
+  width: 800px;
+  height: 500px;
+}
+
+.image6 {
+  width: 100%;
+  height: 100%;
+}
+

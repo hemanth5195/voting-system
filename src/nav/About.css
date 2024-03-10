@@ -1,0 +1,276 @@
+.custom-image1 {
+    padding-left: 10px;
+    /*margin-top: 80px;*/
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    /*border: 2px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 3px 3px 5px #888; */
+    
+    transition: transform 0.2s ease-in-out; 
+  }
+  .custom-image2 {
+    padding-left: 10px;
+    /*margin-top: 80px;*/
+    margin: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .custom-image3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-top: 80px;*/
+    margin: 10px;
+  }
+
+/* Define a keyframes animation for right-to-left */
+@keyframes slideRightToLeft {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* Apply the animation to elements with the class 'intro' */
+.intro,
+.content-text1,
+.custom-image1 {
+  animation: slideRightToLeft 0.5s ease;
+}
+
+.animate-on-scroll {
+  animation: slideRightToLeft 0.5s ease;
+}
+
+.intro1,
+.intro3,
+.content-text  {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.custom-image1:hover,
+.custom-image2:hover,
+.custom-image3:hover {
+  transform: scale(1.05); /* Add your image transformation here */
+  transition: transform 0.4s ease-in-out;
+}
+
+  
+  .custom-image-transform {
+    transform: scale(1.05); /* Add the transformation you want here */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .custom-image1:hover {
+    transform: scale(1.05); 
+  }
+
+  .custom-image2:hover {
+    transform: scale(1.05); 
+  }
+  .custom-image3:hover {
+    transform: scale(1.05); 
+  }
+  .intro,
+  .intro1,
+  .intro3 {
+    font-size: 30px;
+    color: #262424;
+    font-weight: 600;
+    margin: 5px auto;
+    text-align: center;
+    text-shadow: 3px 3px 3px #bdbdbd;
+
+  }
+  
+  .intro3 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .img-responsive {
+    width: 280px !important; /* Adjust the width as needed */
+    height: 310px !important; /* Adjust the height as needed */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white; 
+    color: rgb(47, 45, 45); 
+  }
+  
+  th {
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  
+  tr:hover {
+    background-color: white;
+  }
+  
+  
+  td {
+    padding: 10px;
+    border-top: 10px solid none;
+    border-bottom: 10px solid none;
+  }
+  
+  td, th {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  td:first-child, th:first-child {
+    font-weight: none;
+  }
+  
+  p {
+    font-size: 20px; 
+    color: #333; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+    text-align: justify; 
+  }
+  
+  
+  .special-paragraph {
+    font-weight: none; 
+    color: #FF0000; 
+  }
+  .about {
+    font-size: 50px;
+    color: #cc0000;
+    font-weight: 600;
+    margin: 20px auto;
+    text-align: center;
+    text-shadow: 3px 3px 3px #bdbdbd;
+}
+
+.focu {
+    list-style-type:disc;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+/* Add this CSS to your stylesheets */
+
+/* Footer styles */
+.footer {
+  background-color: #000; /* Change background color to black */
+  color: #fff; /* Change text color to white */
+  padding: 20px 0;
+}
+
+/* Footer section layout */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Footer box styles */
+.box {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.box a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Footer contact information styles */
+.box a i {
+  margin-right: 5px;
+}
+
+/* Footer credit text styles */
+.credit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer menu styles */
+.footermenu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: black;
+}
+
+/* Footer menu links styles */
+.footermenu a {
+  color: #fdfbfb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+/* Footer menu links hover styles */
+.footermenu a:hover {
+  color: #080808;
+}
+
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  /* Footer copyright styles */
+  .credit {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  /* Adjust the styles as needed to match your design */
+.siz {
+    font-size: 20px;
+    padding-bottom: 14px;
+}
+
+.si {
+    font-size: 13px;
+    
+}
+
+.copyright {
+    font-size: 20px;
+    text-align: center;
+}
+
+.last {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px; 
+}
+
+.version {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+

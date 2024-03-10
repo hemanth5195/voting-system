@@ -1,0 +1,76 @@
+/* UserVoting.css */
+.user-voting-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .voting-title {
+    font-size: 24px;
+  }
+  
+  .voting-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .voting-table th, .voting-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .voting-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .member-image {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .radio-label {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .vote-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Center the "Vote" button horizontally and vertically */
+  .vote-button-container {
+    text-align: center;
+  }
+  
+  .vote-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    font-family: Copperplate, Papyrus, fantasy;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 58px;
+      margin-top: 30px;
+      text-align: center;
+      padding-top: 20px;
+      color: #e6301c;
+  }
+  
+  .than1 {
+    text-align: center;
+  }
+
+  .thank {
+    width: 600px;
+    height: 300px;
+  }
